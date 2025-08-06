@@ -1,0 +1,56 @@
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(12fr);
+}
+
+.abt-title {
+    grid-column: span 12;
+    justify-self: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #014200;
+}
+
+.abt-box {
+    margin: 100px 0 100px 0;
+    grid-column: span 12;
+    justify-self: center;
+    width: 50vw;
+    background-color: #487a46;
+}
+
+.abt-section {
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 50px;
+    line-height: 30px;
+    color: white;
+}
+
+.home-link-box {
+    padding-inline-start: 0;
+    width: 100vw;
+    grid-column: span 12;
+    justify-self: center;
+}
+
+.home-link {
+    text-align: center;
+    list-style-type: none;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.h-link {
+    display: inline-block;
+    color: #014200;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.h-link:hover {
+    transform: scale(1.1);
+    color: #487a46;
+    text-decoration: underline;
+}

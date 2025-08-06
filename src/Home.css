@@ -1,0 +1,42 @@
+.container1 {
+    display: grid;
+    grid-template-columns: repeat(12fr);
+}
+
+.home-title {
+    grid-column: span 12;
+    justify-self: center;
+    margin: 50px 0 100px 0;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #014200;
+}
+
+.welcome-message {
+    position: absolute;
+    top: 225px;
+    grid-column: span 12;
+    justify-self: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #014200;
+    margin: 0;
+}
+
+.home-pics {
+    grid-column: span 4;
+    width: 28vw;
+    height: auto;
+    align-self: center;
+    justify-self: center;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.tagline {
+    grid-column: span 12;
+    justify-self: center;
+    margin: 100px 0 20px 0;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #014200;
+}
