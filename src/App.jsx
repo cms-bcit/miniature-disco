@@ -8,16 +8,16 @@ import Interface from './components/Interface';
 const App = () => {
 
   return (
-    <BrowserRouter>
-        <Routes>
-            <Route path='/' element={<Interface />}>
-                <Route index element={<Home />} />
-                <Route path='/parks' element={<Parks />} />
-                <Route path='/about' element={<About />} />
-            </Route>
-        </Routes>
-    </BrowserRouter>
-  );
+		<BrowserRouter basename='/miniature-disco'>
+			<Routes>
+				<Route path='/' element={<Interface />}>
+					<Route index element={<Home />} />
+					<Route path='/parks' element={<Parks />} />
+					<Route path='/about' element={<About />} />
+				</Route>
+			</Routes>
+		</BrowserRouter>
+	);
 };
 
 export default App
